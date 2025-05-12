@@ -1,3 +1,25 @@
+[project]
+name = "flask-charts-api-container-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "apiflask==2.1.1",
+    "black>=25.1.0",
+    "coverage>=7.8.0",
+    "flask==3.0.3",
+    "gunicorn==22.0.0",
+    "marshmallow==3.21.3",
+    "matplotlib==3.9.0",
+    "pillow>=11.2.1",
+    "pre-commit>=4.2.0",
+    "pytest>=8.3.5",
+    "pytest-cov>=6.1.1",
+    "ruff>=0.11.9",
+    "schemathesis>=3.39.16",
+]
+
 [tool.ruff]
 select = ["E", "F", "I", "UP"]
 target-version = "py311"

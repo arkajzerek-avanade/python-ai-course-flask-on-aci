@@ -1,0 +1,27 @@
+[tool.ruff]
+select = ["E", "F", "I", "UP"]
+target-version = "py311"
+line-length = 200
+src = ["src"]
+
+[tool.black]
+target-version =  ["py311"]
+line-length = 200
+
+[tool.pytest.ini_options]
+addopts = [
+    "-ra",
+    "--cov=src",
+    "--import-mode=importlib"
+]
+pythonpath = ["src"]
+testpaths = [
+    "src/tests/"
+]
+filterwarnings = [
+    "ignore:Glyph:UserWarning"
+]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
