@@ -1,0 +1,9 @@
+-r src/requirements.txt
+ruff
+black
+pre-commit
+pytest
+pytest-cov
+coverage
+schemathesis
+pillow

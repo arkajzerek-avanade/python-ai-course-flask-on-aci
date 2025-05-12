@@ -1,0 +1,8 @@
+
+.azure
+
+__pycache__/
+
+.hypothesis/
+
+.coverage
