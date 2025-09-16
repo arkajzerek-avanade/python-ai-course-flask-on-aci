@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "apiflask==2.1.1",
+    "apiflask==2.4.0",
     "black>=25.1.0",
     "coverage>=7.8.0",
     "flask==3.0.3",
